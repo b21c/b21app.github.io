@@ -758,6 +758,24 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 30px;
     font-size: 20px;
   }
+  .whyb21 p{
+    padding-left: 0px;
+  }
+  .whyb21 h4{
+    padding-left: 0px;
+  }
+  .whyb21 img{
+    padding-left: 0px;
+  }
+  .why-b21 p{
+    padding-left: 0px;
+  }
+  .why-b21 h4{
+    padding-left: 0px;
+  }
+  .why-b21 img{
+    padding-left: 0px;
+  }
 }
 
 /*@media (max-width: 414px) {
@@ -820,7 +838,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-get-started1{
     background: #339999;
     border-radius: 15px;
-    padding: 10px 25px;
+    padding: 10px 35px;
     color: #fff;
     border: none;
     /*margin-bottom: 10%;*/
@@ -916,7 +934,7 @@ section {
 }
 .footer-links li {
   list-style: none;
-  line-height: 15px;
+  line-height: 21px;
 }
 #footer .footer-links a {
   color: #000;
@@ -933,9 +951,6 @@ section {
 }
 #footer .footer-social li{
   text-align: left! important;
-}
-.footer-links .fa {
-  font-size: 20px;
 }
 
 #footer .footer-links a:hover {
