@@ -931,6 +931,9 @@ section {
 .footer-links span {
   letter-spacing: 20px;
 }
+#footer .footer-social li{
+  text-align: left! important;
+}
 .footer-links .fa {
   font-size: 20px;
 }
