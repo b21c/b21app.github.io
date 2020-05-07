@@ -959,3 +959,9 @@ section {
 #footer .footer-link {
   margin-bottom: 20%;
 }
+.product-hunt-image {
+  margin-top:10%;
+}
+.product-hunt-image img {
+  height: 60px;
+}
