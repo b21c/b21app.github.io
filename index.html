@@ -9,6 +9,7 @@
   
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
+  <link href="img/favicon.png" rel="icon prefetch">
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
@@ -16,17 +17,33 @@
 
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/js/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <header id="header" class="fixed-top d-flex align-items-center">
+  <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <div class="logo mr-auto">
-        <a href="index.html"><img src="assets/img/b21-logo.png" alt="" class="img-fluid"></a>
-      </div>
+      <a href="index.html" class="logo mr-auto"><img src="assets/img/b21-logo.png" alt="b21" class="img-fluid"></a>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="https://www.b21.io/help/">Help</a></li>
+          <li><a href="https://www.b21.io/">Get Started</a></li>
+          <li class="drop-down"><a href="">Language</a>
+            <ul>
+              <li><a href="index.html"><span><img src="https://www.b21.io/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"></span> English</a></li>
+              <li><a href="chinese.html"><span><img src="https://www.b21.io/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh.png"></span> Chinese</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
     </div>
   </header>
 
@@ -34,7 +51,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12 banner-heading order-1 order-lg-1 d-flex flex-column justify-content-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 banner-heading order-1 order-lg-1 d-flex flex-column justify-content-center" style="margin-top: 6rem;">
           <h1>Invest in your future, in the future of money.</h1><br><br>
           <h5>Kickstart your crypto Investments with just $25</h5><br><br>
           <!-- <div class="app-buttons">
@@ -347,7 +364,7 @@
   </section>   
 
   
- <section style="background: rgba(51, 153, 153, 0.14);">
+ <section style="background: rgba(51, 153, 153, 0.14);" id="blog">
   <div class="container">
     <div class="section-title">
           <h2>Stay Informed</h2>
@@ -435,8 +452,8 @@
         <div class="col-lg-2 col-md-2 col-sm-6 col-6">
           <div class="footer-links">
             
-            <a href="#"><li> Help Center </li></a>
-            <a href="#"><li> FAQ </li></a>
+            <a href="https://www.b21.io/help/" target="_blank"><li> Help Center </li></a>
+            <a href="https://www.b21.io/help/" target="_blank"><li> FAQ </li></a>
             <a href="https://www.b21.io/app_terms/"><li> Terms of use </li></a>
             <a href="https://www.b21.io/privacy/"><li> Privacy Policy </li></a>
             <a href="https://www.b21.io/custodial/"><li> Custodial </li></a>
@@ -513,6 +530,7 @@
       });
     });
   </script>
+  <script src="assets/js/main.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/slick-slider/slick.js"></script>
   
